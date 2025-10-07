@@ -1,0 +1,70 @@
+:root 
+{
+  --frequencia: #126ae2;
+  --nota: #126ae2;
+  --prova: #d9534f; 
+}
+
+body 
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 20px;
+}
+
+.comp-aula 
+{
+    border: 1px solid #ccc;      
+    padding: 15px;                  
+    margin-bottom: 15px;            
+    border-radius: 8px;             
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    max-width: 350px;              
+}
+
+.titulo_aula 
+{
+    font-weight: bold;              
+    font-size: 15px;               
+    padding: 5px;                  
+    white-space: nowrap;           
+    overflow: hidden;              
+    text-overflow: ellipsis;       
+    margin-bottom: 5px;             
+}
+
+.lables 
+{
+    display: flex;                  
+    flex-wrap: wrap;              
+}
+
+.lable-prova,
+.lable-frequencia,
+.lable-nota 
+
+{
+    background-color: var(--prova); 
+    padding: 7px 15px;             
+    margin-bottom: 10px;          
+    border-radius: 500px;           
+    text-align: center;             
+    margin-right: 10px;          
+}
+
+.lable-frequencia 
+
+{
+    background-color: var(--frequencia);
+
+.lable-nota 
+{
+    background-color: var(--nota); 
+
+.p_lable 
+{
+    font-size: 13px;               
+    color: white;                 
+    white-space: nowrap;            
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
